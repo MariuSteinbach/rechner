@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="36,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="360,59,0,0"/>
+        <Button x:Name="bplus" Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="220,26,0,0" Click="bplus_Click"/>
+        <Button x:Name="bminus" Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="220,51,0,0" Click="bminus_Click"/>
+        <Button x:Name="bdividiert" Content=":" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="220,76,0,0" Click="bdividiert_Click"/>
+        <Button x:Name="bmal" Content="x" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="220,101,0,0" Click="bmal_Click"/>
+        <TextBlock x:Name="tergebnis" HorizontalAlignment="Left" Margin="397,263,0,0" TextWrapping="Wrap" Text="ERGEBNIS" VerticalAlignment="Top"/>
+        <Button x:Name="modulo" Content="%" HorizontalAlignment="Left" Margin="36,264,0,0" VerticalAlignment="Top" Width="75" Click="button_ul_Click"/>
+
     </Grid>
 </Window>

@@ -24,5 +24,75 @@ namespace rechner
         {
             InitializeComponent();
         }
+
+        private void bplus_Click(object sender, RoutedEventArgs e)
+        {
+            //VARIABLEN
+            int zahl1;
+            int zahl2;
+            int ergebnis;
+            //zuweisungen
+            zahl1 = Convert.ToInt32(tb1.Text);
+            zahl2 = Convert.ToInt32(tb2.Text);
+            ergebnis = zahl1 + zahl2;
+
+            //ausgabe
+            tergebnis.Text = Convert.ToString(ergebnis);
+        }
+
+        private void bminus_Click(object sender, RoutedEventArgs e)
+        {
+            //VARIABLEN
+            int zahl1;
+            int zahl2;
+            int ergebnis;
+            //zuweisungen
+            zahl1 = Convert.ToInt32(tb1.Text);
+            zahl2 = Convert.ToInt32(tb2.Text);
+            ergebnis = zahl1 - zahl2;
+
+            //ausgabe
+            tergebnis.Text = Convert.ToString(ergebnis);
+        }
+
+        private void bdividiert_Click(object sender, RoutedEventArgs e)
+        {
+            //VARIABLEN
+            Double zahl1;
+            Double zahl2;
+            Double ergebnis;
+         
+            //zuweisungen
+            zahl1 = Convert.ToInt32(tb1.Text);
+            zahl2 = Convert.ToInt32(tb2.Text);
+            ergebnis = zahl1 / zahl2;
+
+            //ausgabe
+            tergebnis.Text = Convert.ToString(ergebnis);
+        }
+
+        private void bmal_Click(object sender, RoutedEventArgs e)
+        {
+            //VARIABLEN
+            int zahl1;
+            int zahl2;
+            int ergebnis;
+            //zuweisungen
+            zahl1 = Convert.ToInt32(tb1.Text);
+            zahl2 = Convert.ToInt32(tb2.Text);
+            ergebnis = zahl1 * zahl2;
+
+            //ausgabe
+            tergebnis.Text = Convert.ToString(ergebnis);
+        }
+
+        private void button_ul_Click(object sender, RoutedEventArgs e)
+        {
+            int modulo;
+            //zuweisungen
+
+            //ausgabe
+            MessageBox.Show(modulo.ToString());
+        }
     }
 }
